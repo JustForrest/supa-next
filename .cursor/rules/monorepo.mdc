@@ -13,6 +13,8 @@ File pattern matches: apps/**/*.tsx, apps/**/*.ts, packages/**/*.tsx, packages/*
 - Use workspace references for cross-package dependencies
 - Abstract common UI elements to shared libraries
 - Maintain clear module boundaries
+- Always use pnpm for package management in monorepo context
+- Use pnpm workspace commands for cross-package operations (pnpm --filter)
 
 ## Package Standards
 - Clear, descriptive exports
@@ -20,6 +22,7 @@ File pattern matches: apps/**/*.tsx, apps/**/*.ts, packages/**/*.tsx, packages/*
 - Minimal external dependencies
 - Version compatibility across workspace
 - Use named exports for better tree-shaking
+- Use pnpm scripts for consistent command execution
 
 @apps/**/*.ts
 @packages/**/*.ts

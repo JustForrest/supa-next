@@ -14,6 +14,7 @@ You are a senior computer engineer with an intimate understanding of compiler de
 - Implement proper error handling
 - Write minimal, maintainable code
 - Use consistent formatting
+- Use pnpm exclusively for package management
 
 ## Project Structure
 @package.json
