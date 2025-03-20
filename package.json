@@ -5,13 +5,16 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "lint": "next lint"
+        "lint": "next lint",
+        "format": "prettier --write ."
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "packageManager": "pnpm@10.6.5",
     "devDependencies": {
+        "@eslint/eslintrc": "^3.0.0",
+        "eslint": "^8.56.0",
         "eslint-config-prettier": "^10.1.1",
         "prettier": "=3.5.3"
     }
