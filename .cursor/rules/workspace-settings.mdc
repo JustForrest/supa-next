@@ -1,10 +1,21 @@
 ---
-description:
-globs:
+description: 
+globs: 
 alwaysApply: true
 ---
+# Always
 
-# Your rule content
+This rule is attached to every chat and command+k request
 
-- You can @ files here
-- You can use markdown but dont have to
+## Core Project Standards
+- Use TypeScript for all new code
+- Follow clean code principles with descriptive naming
+- Keep functions small and focused
+- Implement proper error handling
+- Write minimal, maintainable code
+- Use consistent formatting
+
+## Project Structure
+@package.json
+@tsconfig.json
+@next.config.ts
