@@ -1,0 +1,26 @@
+---
+description: 
+globs: **/*.test.ts,**/*.test.tsx,**/*.spec.ts,**/*.spec.tsx,**/tests/**/*.ts
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/*.test.ts, **/*.test.tsx, **/*.spec.ts, **/*.spec.tsx, **/tests/**/*.ts
+
+## Vitest Standards
+- Structure tests with describe/it pattern
+- Implement proper mocking strategies
+- Create reusable test utilities
+- Use consistent assertion patterns
+- Implement component testing best practices
+- Cover edge cases and error states
+- Structure test files to mirror source files
+
+## Test Organization
+- Group related tests logically
+- Implement proper setup and teardown
+- Use appropriate test isolation
+- Create comprehensive coverage
+
+@tests/**/*.ts
+@vitest.config.ts

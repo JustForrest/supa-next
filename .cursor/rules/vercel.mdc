@@ -1,0 +1,26 @@
+---
+description: Working with Vercel deployment, configuration, and environment variables
+globs: 
+alwaysApply: false
+---
+# Agent Requested
+
+Description of the task this rule is helpful for: Working with Vercel deployment, configuration, and environment variables
+
+## Vercel Standards
+- Structure environment variables consistently
+- Configure appropriate build settings
+- Implement preview deployment strategies
+- Use deployment protection rules
+- Configure proper caching strategies
+- Implement serverless function optimization
+- Structure edge functions appropriately
+
+## Deployment
+- Document deployment workflows
+- Configure branch preview settings
+- Implement production safeguards
+- Use proper domain and redirect configuration
+
+@vercel.json
+@.vercelignore

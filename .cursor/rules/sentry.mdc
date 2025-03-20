@@ -1,0 +1,26 @@
+---
+description: Working with error monitoring, crash reporting, and performance tracking using Sentry
+globs: 
+alwaysApply: false
+---
+# Agent Requested
+
+Description of the task this rule is helpful for: Working with error monitoring, crash reporting, and performance tracking using Sentry
+
+## Sentry Standards
+- Initialize Sentry appropriately for environment
+- Implement consistent error boundaries
+- Create useful error context and breadcrumbs
+- Configure appropriate sampling rates
+- Implement user identification safely
+- Create custom error reporting utilities
+- Use performance monitoring strategically
+
+## Error Handling
+- Create standardized error capture patterns
+- Implement proper source maps configuration
+- Use transaction naming consistently
+- Filter sensitive information
+
+@lib/sentry/**/*.ts
+@app/error.tsx

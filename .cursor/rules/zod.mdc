@@ -1,0 +1,25 @@
+---
+description: 
+globs: **/schemas/**/*.ts,**/validation/**/*.ts,**/types/**/*schema*.ts
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/schemas/**/*.ts, **/validation/**/*.ts, **/types/**/*schema*.ts
+
+## Zod Standards
+- Create reusable validation schemas
+- Implement consistent error messages
+- Use Zod inference for TypeScript types
+- Structure complex schemas with composition
+- Implement proper error handling for validation
+- Create domain-specific schema helpers
+
+## Schema Design
+- Share schemas between client and server
+- Version schemas appropriately
+- Use refinements for complex validation
+- Create strict API input/output validation
+
+@lib/schemas/**/*.ts
+@types/schemas/**/*.ts

@@ -1,0 +1,51 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Manual
+
+This rule needs to be mentioned to be included
+
+## Configuration Standards
+- Use TypeScript for configuration files when supported
+- Keep configuration DRY by using variables
+- Document non-obvious configuration choices
+- Follow security best practices for environment variables
+- Separate dev/prod configurations appropriately
+
+## Prettier Standards
+- Use consistent configuration across projects
+- Implement automatic formatting on save
+- Configure appropriate line length and tab width
+- Set consistent quote style and comma usage
+- Run prettier as part of pre-commit hooks
+- Maintain compatible configurations with ESLint
+
+## ESLint Standards
+- Use TypeScript-aware rules
+- Implement consistent rule sets across projects
+- Configure appropriate error levels
+- Enforce coding standards automatically
+- Integrate with editor workflows
+- Run linting as part of CI/CD
+
+## Husky Standards
+- Implement consistent Git hooks
+- Configure pre-commit linting and formatting
+- Set up commit message validation
+- Ensure tests pass before commits
+- Use lint-staged for optimized checks
+- Implement branch naming conventions
+
+## Configuration Files
+@next.config.ts
+@tsconfig.json
+@postcss.config.mjs
+@eslint.config.mjs
+@.prettierrc.js
+@.prettierignore
+@eslint.config.mjs
+@.eslintignore
+@.husky/**/*
+@vercel.json

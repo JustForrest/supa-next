@@ -1,0 +1,26 @@
+---
+description: 
+globs: **/store/**/*.ts,**/store/**/*.tsx,**/stores/**/*.ts,**/stores/**/*.tsx
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/store/**/*.ts, **/store/**/*.tsx, **/stores/**/*.ts, **/stores/**/*.tsx
+
+## Zustand Standards
+- Create strongly typed stores
+- Use slices for modularity in larger stores
+- Implement middleware consistently
+- Avoid direct store mutation
+- Create action creators for complex state changes
+- Use selectors for performance optimization
+- Consider persistence needs
+
+## Store Design
+- Keep stores minimal and focused
+- Create separate stores for different domains
+- Use TypeScript for strict typing of state
+- Implement proper initialization
+
+@lib/store/**/*.ts
+@store/**/*.ts

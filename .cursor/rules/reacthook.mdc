@@ -1,0 +1,26 @@
+---
+description: 
+globs: **/forms/**/*.tsx,**/components/**/*Form*.tsx,**/pages/**/*Form*.tsx
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/forms/**/*.tsx, **/components/**/*Form*.tsx, **/pages/**/*Form*.tsx
+
+## React Hook Form Standards
+- Use with Zod for schema validation
+- Implement consistent error handling
+- Create reusable form components
+- Use controlled inputs when necessary
+- Handle form submission states properly
+- Structure complex forms with fieldArrays
+- Implement proper form reset logic
+
+## Form Validation
+- Create reusable validation schemas
+- Use consistent error message patterns
+- Implement real-time validation where appropriate
+- Create typed form submissions
+
+@components/forms/**/*.tsx
+@lib/forms/**/*.ts

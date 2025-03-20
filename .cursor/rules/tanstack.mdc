@@ -1,0 +1,26 @@
+---
+description: 
+globs: **/*query*.ts,**/*query*.tsx,**/api/*.ts,**/hooks/use*.ts
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/*query*.ts, **/*query*.tsx, **/api/*.ts, **/hooks/use*.ts
+
+## TanStack Query Standards
+- Organize queries in dedicated hooks
+- Use proper query keys with consistent patterns
+- Implement stale time and caching strategies
+- Handle loading, error, and success states
+- Use prefetching for improved UX
+- Implement proper query invalidation
+- Structure mutations with optimistic updates
+
+## Data Fetching
+- Use query key factories for consistent key structure
+- Implement proper error typing
+- Create reusable query hooks
+- Consider deduplication of request waterfalls
+
+@lib/queries/**/*.ts
+@hooks/use*Query.ts
