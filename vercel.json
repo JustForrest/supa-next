@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd zesty-funk && pnpm build",
+  "outputDirectory": "zesty-funk/.next",
+  "installCommand": "cd zesty-funk && pnpm install"
+} 
