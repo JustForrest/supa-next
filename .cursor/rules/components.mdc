@@ -1,0 +1,24 @@
+---
+description: 
+globs: **/components/**/*.tsx
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/components/**/*.tsx
+
+## Component Standards
+- Define clear prop interfaces with explicit types
+- Use functional components with hooks
+- Keep components small and focused
+- Make components reusable when possible
+- Follow responsive design patterns
+- Implement proper loading/error states
+
+## State Management
+- Use React hooks for local state
+- Consider context for shared state
+- Prefer controlled components
+- Implement proper form validation
+
+@app/components/**/*.tsx

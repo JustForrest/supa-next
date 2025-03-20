@@ -1,0 +1,25 @@
+---
+description: 
+globs: **/*.ts,**/*.tsx
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: **/*.ts, **/*.tsx
+
+## TypeScript Standards
+- Use strict TypeScript configuration
+- Define explicit return types for non-trivial functions
+- Create dedicated interfaces for complex object shapes
+- Avoid using 'any' type
+- Use generics appropriately
+- Leverage TypeScript utility types (Partial, Pick, Omit)
+- Write strongly-typed functions and components
+
+## Type Definitions
+- Keep types and interfaces close to where they're used
+- Export shared types from dedicated files
+- Use discriminated unions for state management
+
+@types/**/*.ts
+@app/**/*.ts

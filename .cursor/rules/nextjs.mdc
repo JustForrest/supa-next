@@ -1,0 +1,27 @@
+---
+description: 
+globs: app/**/*.tsx,app/**/*.ts
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: app/**/*.tsx, app/**/*.ts
+
+## Next.js Standards
+- Use App Router patterns consistently
+- Default to React Server Components
+- Add 'use client' directive only when necessary
+- Follow Next.js data fetching best practices
+- Implement proper loading states and error boundaries
+- Structure pages as composition of smaller components
+- Optimize images with next/image
+
+## Route Handlers
+- Implement proper input validation
+- Follow consistent response structure
+- Use appropriate HTTP status codes
+- Handle errors gracefully
+
+@app/layout.tsx
+@app/page.tsx
+@app/api/**/*.ts

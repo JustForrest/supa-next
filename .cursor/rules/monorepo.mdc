@@ -1,0 +1,27 @@
+---
+description: 
+globs: apps/**/*.tsx,apps/**/*.ts,packages/**/*.tsx,packages/**/*.ts
+alwaysApply: false
+---
+# Auto Attached
+
+File pattern matches: apps/**/*.tsx, apps/**/*.ts, packages/**/*.tsx, packages/**/*.ts
+
+## Monorepo Standards
+- Follow consistent patterns across applications and packages
+- Don't duplicate code that could be shared
+- Use workspace references for cross-package dependencies
+- Abstract common UI elements to shared libraries
+- Maintain clear module boundaries
+
+## Package Standards
+- Clear, descriptive exports
+- Comprehensive TypeScript types
+- Minimal external dependencies
+- Version compatibility across workspace
+- Use named exports for better tree-shaking
+
+@apps/**/*.ts
+@packages/**/*.ts
+@turbo.json
+@pnpm-workspace.yaml

@@ -1,0 +1,26 @@
+---
+description: Working with Supabase client and database operations
+globs: 
+alwaysApply: false
+---
+# Agent Requested
+
+Description of the task this rule is helpful for: Working with Supabase client and database operations
+
+## Supabase Standards
+- Use typed Supabase client
+- Implement consistent error handling patterns
+- Create dedicated service functions for database operations
+- Use Row Level Security (RLS) for data protection
+- Structure database access through service modules
+- Implement optimistic UI updates with proper error handling
+- Use proper data caching strategies
+
+## Authentication
+- Handle auth state consistently
+- Implement proper session management
+- Secure protected routes
+- Create typed user sessions
+
+@lib/supabase/**/*.ts
+@app/auth/**/*.ts
