@@ -1,5 +1,7 @@
 {
-  "buildCommand": "cd zesty-funk && pnpm build",
+  "buildCommand": "cd zesty-funk && pnpm install && pnpm build",
   "outputDirectory": "zesty-funk/.next",
-  "installCommand": "cd zesty-funk && pnpm install"
+  "installCommand": "cd zesty-funk && pnpm install",
+  "framework": "nextjs",
+  "rootDirectory": "zesty-funk"
 } 
